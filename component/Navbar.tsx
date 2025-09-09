@@ -10,25 +10,25 @@ const Navbar = () => {
             </section>
             <section className="flex justify-between w-full pt-1">
                 <section>
-                    <ul className="flex gap-2.5 text-slate-700">
+                    <ul className="flex gap-4 text-slate-600">
                         <li>
-                            <Link href='./'>Home</Link>
+                            <Link href='./browse-job'>Job Search</Link>
                         </li>
                         <li>
-                            <Link href='./'></Link>
+                            <Link href='./profile'>Profile</Link>
                         </li>
                         <li>
-                            <Link href='./browse-job'>Browse Job</Link>
+                            <Link href=''>Company review</Link>
                         </li>
                     </ul>
                 </section>
                 <section>
                     <ul className="flex gap-5">
                         <li>
-                            <Link href='/' className="font-semibold text-blue-700 border-r-1 border-gray-300 px-5 ">Sign in</Link>
+                            <Link href='/' className="font-semibold text-blue-700 border-r-1 border-gray-300 px-5 py-1">Sign in</Link>
                         </li>
                         <li>
-                            <Link href='/' className="text-slate-700">Employers / Post Job</Link>
+                            <Link href='/' className="text-slate-600">Employers / Post Job</Link>
                         </li>
                     </ul>
                 </section>
