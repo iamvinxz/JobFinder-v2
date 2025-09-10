@@ -40,8 +40,8 @@ const Profile = () => {
                     </p>
                 </section>
             </section>
-            <section>
-                <h2 className="text-3xl text-gray-800 font-semibold mb-8">Stand out to future employers</h2>
+            <section className="pb-20">
+                <h2 className="text-3xl text-gray-800 font-semibold my-10">Stand out to future employers</h2>
                 <section className="flex flex-row gap-8 justify-center items-start">
                     <section>
                         <section className="flex justify-center my-5">
@@ -63,5 +63,4 @@ const Profile = () => {
     </div>
   )
 }
-
 export default Profile
