@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/component/Navbar";
+import Footer from "@/component/Footer";
 
 const font = Poppins({
   variable: "--font-poppins",
@@ -21,9 +22,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${font.variable} antialiased`}>
+      <body className={`${font.variable} antialiased min-h-screen flex flex-col`}>
         <Navbar/>
+        <main className="flex-grow">
         {children}
+        </main>
+        <Footer/>
       </body>
     </html>
   );
