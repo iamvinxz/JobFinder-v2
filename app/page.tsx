@@ -15,13 +15,15 @@ const Home = () => {
                 <button className="border border-gray-500 font-medium w-lg rounded-4xl cursor-pointer"><SiFacebook className="inline-block text-blue-500 text-4xl p-1 mx-1"/>Continue with Facebook</button>
                 <button className="border border-gray-500 font-medium w-lg rounded-4xl cursor-pointer"><FaGithub className="inline-block text-4xl p-1 mx-1"/>Continue with Github</button>
               </section>
-
               <section className="w-[70%] text-center mt-3 ml-3">
                 <p className="text-sm text-gray-500">By clicking Continue to join or sign in, you agree to JobFinder’s <span className="text-blue-600 cursor-pointer hover:underline hover:text-blue-800">User Agreement</span>, <span className="text-blue-600 cursor-pointer hover:underline hover:text-blue-800">Privacy Policy</span>, and <span className="text-blue-600 cursor-pointer hover:underline hover:text-blue-800">Cookie Policy.</span></p>
               </section>
             </section>
-            <Image src='/home.png' width={600} height={600} alt="image"/>
+            <Image src='/home.png' width={700} height={700} alt="image" className="relative left-30"/>
           </section>
+      </section>
+      <section>
+        
       </section>
   
     </main>
