@@ -1,6 +1,3 @@
-import { FcGoogle } from "react-icons/fc"
-import { FaGithub } from "react-icons/fa"
-import { SiFacebook } from "react-icons/si"
 import { MdAccountCircle } from 'react-icons/md';
 import { BiSearchAlt2 } from 'react-icons/bi';
 import { FaFile } from 'react-icons/fa';
@@ -14,6 +11,9 @@ import { FaTruck } from 'react-icons/fa';
 import { HiMiniComputerDesktop } from 'react-icons/hi2';
 import { BsBuildings } from 'react-icons/bs';
 import Image from "next/image"
+import GoogleButton from "@/component/action/google-button";
+import FacebookButton from "@/component/action/facebook-button";
+import GithubButton from '@/component/action/github-button';
 
 const Home = () => {
   return (
@@ -25,9 +25,9 @@ const Home = () => {
                 <h1 className="text-5xl text-gray-600 border-b-1 border-gray-300 pb-10 mt-10">Connecting you with your professional community</h1>
 
                 <section className="flex flex-col items-center gap-3 mt-7 mx-auto">
-                  <button className="bg-blue-500 p-1.5 text-white font-medium w-sm rounded-4xl cursor-pointer hover:bg-blue-400 transition"><FcGoogle className="text-4xl p-1 mr-2 bg-white rounded-3xl inline-block"/>Continue with Google</button>
-                  <button className="border p-1.5 border-gray-500 font-medium w-sm rounded-4xl cursor-pointer hover:bg-gray-200 transition"><SiFacebook className="inline-block text-blue-500 text-4xl p-1 mx-1"/>Continue with Facebook</button>
-                  <button className="border p-1.5 border-gray-500 font-medium w-sm rounded-4xl cursor-pointer hover:bg-gray-200 transition"><FaGithub className="inline-block text-4xl p-1 mx-1"/>Continue with Github</button>
+                  <GoogleButton/>
+                  <FacebookButton/>
+                  <GithubButton/>
                 </section>
 
                 <section className="w-[80%] text-center mt-5">
