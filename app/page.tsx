@@ -11,9 +11,9 @@ import { FaTruck } from 'react-icons/fa';
 import { HiMiniComputerDesktop } from 'react-icons/hi2';
 import { BsBuildings } from 'react-icons/bs';
 import Image from "next/image"
-import GoogleButton from "@/component/action/google-button";
-import FacebookButton from "@/component/action/facebook-button";
-import GithubButton from '@/component/action/github-button';
+import GoogleButton from "@/components/action/google-button";
+import FacebookButton from "@/components/action/facebook-button";
+import GithubButton from '@/components/action/github-button';
 
 const Home = () => {
   return (
